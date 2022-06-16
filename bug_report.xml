@@ -1,1 +1,23 @@
-
+<bug_report>
+	<summary>the app cannot find deliveryman after accepting order and payment</summary>
+	<project>Glovo app</project>
+	<component>Delivery</component>
+	<version>5.168.1 246620</version>
+	<severity>Minor</severity>
+	<priority>medium</priority>
+	<status>new</status>
+	<author>Azhar Kiryukhina</author>
+	<assigned_to>Developer</assigned_to>
+	<description>
+		<app>Glovo</app>
+		<device>Samsung galaxy 20</device>
+		<os>android version 12</os>
+	</description>
+	<steps_to_reproduce>
+		<one>Make an order</one>
+		<two>Confirm payment</two>
+		<three>Wait for assigning of deliveryman</three>
+	</steps_to_reproduce>
+	<actual_outcome>Deliveryman was not assigned during 80 minutes</actual_outcome>
+	<expected_outcome>Deliveryman should be assigned during 10 minutes</expected_outcome>
+</bug_report>
